@@ -28,7 +28,7 @@ function solution(board, moves) {
         board[dollOrder][order] = 0;
       }
     }
-
+    //break;
     if (resultArr[n] == resultArr[n + 1]) {
       resultArr.pop();
       resultArr.pop();
@@ -36,15 +36,6 @@ function solution(board, moves) {
     }
   }
 
-  // for(let j=0; j<moves.length; j++)
-  //   {
-  //     let order = moves[j];
-  //     for(let l=0; l<)
-  //     resultArr.push(arr[order][l]);
-  //   }
-
-  // console.log(arr[1][3]);
-  // console.log(arr);
   console.log(resultArr);
 
   return console.log(answer + "결과값");
@@ -60,3 +51,13 @@ solution(
   ],
   [1, 5, 3, 5, 1, 2, 1, 4]
 );
+
+// for(let j=0; j<moves.length; j++)
+//   {
+//     let order = moves[j];
+//     for(let l=0; l<)
+//     resultArr.push(arr[order][l]);
+//   }
+
+// console.log(arr[1][3]);
+// console.log(arr);
