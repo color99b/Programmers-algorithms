@@ -14,3 +14,14 @@ function solution(n) {
 
   return s1;
 }
+
+function solutionRetry(n) {
+  let f0 = 0;
+  let f1 = 1;
+  let result = solutionRetry(n - 1) + solutionRetry(n - 2);
+}
+
+console.log(solutionRetry(5));
+console.log(solutionRetry(10));
+console.log(solutionRetry(7));
+console.log(solutionRetry(15));
